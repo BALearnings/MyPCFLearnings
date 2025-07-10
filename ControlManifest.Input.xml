@@ -1,0 +1,10 @@
+<control namespace="NuveiControls" constructor="NuveiPaymentControl" version="1.0.0" control-type="standard">
+  <display-name>Nuvei Payment</display-name>
+  <description>Nuvei Payment Tokenization PCF</description>
+  <resources>
+    <code path="index.ts" order="1" />
+    <css path="css/NuveiPaymentControl.css" />
+  </resources>
+  <property name="value" display-name="Value" type="SingleLine.Text" />
+  <manifest-version>1.3</manifest-version>
+</control>
